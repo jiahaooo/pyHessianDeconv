@@ -1,7 +1,6 @@
 """
 You, Y-L., and Mostafa Kaveh. "Fourth-order partial differential equations for noise removal." IEEE Transactions on Image Processing 9.10 (2000): 1723-1730.
 Goldstein, Tom, and Stanley Osher. "The split Bregman method for L1-regularized problems." SIAM journal on imaging sciences 2.2 (2009): 323-343.
-Sun, Tao, et al. "Iterative CBCT reconstruction using Hessian penalty." Physics in Medicine & Biology 60.5 (2015): 1965.
 """
 
 import torch
