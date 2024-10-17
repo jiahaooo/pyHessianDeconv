@@ -12,7 +12,7 @@ from common import shrink, fft3d, ifft3d, forward_diff, back_diff, conv, psf2otf
 device = torch.device('cuda')
 
 
-def hessian(g, otf=None, psf=None, para_fidelity=400.0, para_relaxation=1.0, para_smooth_space=1.0, para_smooth_timepoint=2.0, iter_Bregman=100, tol=1e-12):
+def hessian(g, otf=None, psf=None, para_fidelity=100.0, para_relaxation=1.0, para_smooth_space=1.0, para_smooth_timepoint=1.0, iter_Bregman=300, tol=1e-13):
     # ----------------------------------------
     # data pre process
     # ----------------------------------------
